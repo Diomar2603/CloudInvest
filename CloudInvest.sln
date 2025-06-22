@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD9266B8-39D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudInvest.Core", "CloudInvest.Core\CloudInvest.Core.csproj", "{160B5991-0089-44EF-894A-5F0EFFBDA6DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudInvest.Worker", "CloudInvest.Worker\CloudInvest.Worker.csproj", "{C0A391A6-84ED-49D4-BF25-1633411F59B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{160B5991-0089-44EF-894A-5F0EFFBDA6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160B5991-0089-44EF-894A-5F0EFFBDA6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160B5991-0089-44EF-894A-5F0EFFBDA6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{160B5991-0089-44EF-894A-5F0EFFBDA6DF} = {CD9266B8-39DA-495F-99BC-B9A7B97050E2}
+		{C0A391A6-84ED-49D4-BF25-1633411F59B5} = {CD9266B8-39DA-495F-99BC-B9A7B97050E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5C467D8-8371-44AE-823D-D5DEFB6A40CE}
