@@ -1,0 +1,15 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AWS": {
+    "Region": "us-east-1", // Ou a região onde você criou seus recursos
+    "SqsQueueUrl": "URL_DA_SUA_FILA_SQS_AQUI"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=SEU_ENDPOINT_RDS_AQUI;Database=ionprojectdb;Uid=SEU_USER_AQUI;Pwd=SUA_SENHA_AQUI;"
+  }
+}
