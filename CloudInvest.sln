@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudInvest.Core", "CloudIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudInvest.Worker", "CloudInvest.Worker\CloudInvest.Worker.csproj", "{C0A391A6-84ED-49D4-BF25-1633411F59B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudInvest.Infrastructure", "CloudInvest.Infrastructure\CloudInvest.Infrastructure.csproj", "{A19D0248-6108-4D64-929F-EC4D9F56FF32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A391A6-84ED-49D4-BF25-1633411F59B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19D0248-6108-4D64-929F-EC4D9F56FF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19D0248-6108-4D64-929F-EC4D9F56FF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19D0248-6108-4D64-929F-EC4D9F56FF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19D0248-6108-4D64-929F-EC4D9F56FF32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{160B5991-0089-44EF-894A-5F0EFFBDA6DF} = {CD9266B8-39DA-495F-99BC-B9A7B97050E2}
 		{C0A391A6-84ED-49D4-BF25-1633411F59B5} = {CD9266B8-39DA-495F-99BC-B9A7B97050E2}
+		{A19D0248-6108-4D64-929F-EC4D9F56FF32} = {CD9266B8-39DA-495F-99BC-B9A7B97050E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5C467D8-8371-44AE-823D-D5DEFB6A40CE}
